@@ -56,9 +56,9 @@ This project implements an **Information Retrieval System** using the **Cosine S
 
 #### **Key Algorithms**
 1. **TF-IDF Calculation**:
-   - \( \text{TF-IDF(word)} = (\text{1 + log(TF)}) \times \text{IDF(word)} \)
+   - TF-IDF(word) = (1 + log(TF)) × IDF(word)
 2. **Cosine Similarity**:
-   - \( \text{Cosine Similarity} = \frac{\text{Dot Product}}{\|\text{Query TF-IDF}\| \times \|\text{Document TF-IDF}\|} \)
+   - Cosine Similarity = Dot Product / (|Query TF-IDF| × |Document TF-IDF|)
 
 ---
 
